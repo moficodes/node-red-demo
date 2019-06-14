@@ -24,19 +24,19 @@ Open the sidebar \(Ctrl-Space, or via the dropdown menu\) and select the Info ta
 
 Select the newly added Inject node to see information about its properties and a description of what it does.
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 #### Step 2. Add a Debug Node 
 
 The Debug node causes any message to be displayed in the Debug sidebar. By default, it just displays the payload of the message, but it is possible to display the entire message object.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 #### Step 3. **Wire the two together**
 
 Connect the Inject and Debug nodes together by dragging between the output port of one to the input port of the other.
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 #### **Step 4. Deploy** 
 
@@ -46,7 +46,7 @@ Click the Deploy button. Simple as that.
 
 With the Debug sidebar tab selected, click the Inject button. You should Hello World Selected in the Side Bar. Let’s do something more useful with that.
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 #### Step 5. **Add a Function node**
 
@@ -61,7 +61,7 @@ var newString = msg.payload.replace("World","Everyone , I hope you enjoy Node Re
 return {payload : newString};
 ```
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 
 

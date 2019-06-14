@@ -8,7 +8,7 @@ description: >-
 
 This is an addition to Tweet Simple where it takes the output from the function and does sentimental analysis on the tweet and provides a sentimental score . This then prints the score on the debug panel as well as the Positive Tweet or Negative Tweet 
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 ### How to Build this Flow 
 
@@ -28,7 +28,7 @@ Insert the Sentiment node from the analysis palette and name node. Connect senti
 * A value of greater or equal to 2 will output positive tweets 
 * A value of less than 0 will output negative tweets
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
    2.  Insert a debug message node and connect it to Sentiment node. Name the property **msg.sentiment.score :**
 
@@ -45,7 +45,7 @@ Make sure both nodes output is msg.payload
 
 You should be able to see the tweet output and sentiment score on the debug pannel 
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 ### Flow can be imported from : 
 

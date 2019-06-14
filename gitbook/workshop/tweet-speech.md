@@ -6,7 +6,7 @@ description: Speak Tweets using the Watson Text to Speech Service from Sentiment
 
 This flow is an addition to Tweet Sentiment \( follow Tweet Sentiment flow \) which 
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 ### How to Build this Flow 
 
@@ -27,11 +27,11 @@ Get Access to Text To Speech
 * Log into IBM Cloud and Go to IBM Cloud Catalog 
 * Search for Text to Speech Service within Catalog 
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 * Create Lite Service 
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 * Go to created Service and get service credentials for Text to Speech node
 * Set up node properties with username , password and API key from service credentials 
@@ -40,7 +40,7 @@ Get Access to Text To Speech
 
 Insert play audio node . Node might need to be installed within the Manage palette in hamburger menu
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 Go to Manage palette &gt; install and search for play-audio to find node 
 
@@ -48,7 +48,7 @@ Once installed connect node to output of speech to text node
 
 #### Step 5 : Deploy 
 
-Once this flow is deployed you should be able to hear a tweet that is either positive or negative based on where you connected the speech to text service ! 
+Once this flow is deployed you should be able to hear a tweet that is either positive or negative based on where you connected the speech to text service !  
 
 ### Flow can be imported from : 
 
