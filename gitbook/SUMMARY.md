@@ -1,12 +1,13 @@
 # Table of contents
 
-* [Introduction](README.md)
-* [Node Red](node-red.md)
+* [Twitter data Analysis using Node-RED](README.md)
 * [Setup](setup.md)
 * [Workshop](workshop/README.md)
   * [Basics](workshop/basics.md)
-  * [Building Flows](workshop/building-flows.md)
-  * [Connecting API Services](workshop/connecting-api-services.md)
-  * [Putting it all together](workshop/untitled.md)
-* [Next Steps](next-steps.md)
+  * [Tweet Simple](workshop/tweet-simple-1.md)
+  * [Tweet Sentiment](workshop/tweet-sentiment.md)
+  * [Tweet Speech](workshop/tweet-speech.md)
+  * [Tweet Tone](workshop/tweet-tone.md)
+  * [Tweet Language](workshop/untitled.md)
+* [More Node-RED resources](more-node-red-resources.md)
 
