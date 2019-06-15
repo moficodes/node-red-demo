@@ -8,22 +8,21 @@ description: >-
 
 ## Getting Started with IBM Cloud
 
-### Step1 : Create an IBM Cloud Account 
+* [Click Here to Get Started](https://ibm.biz/BdzPbV)
 
-#### Signup for a free IBM Cloud Lite Account 
+> ### Caution
+>
+> When many people try to sign up from the same ip such as a public wifi in this workshop environment the system catches that as a spam. Since our lite account also do not have a credit card requirement, that is the best way we have to stop spam accounts being created. It's not perfect. But we would rather give people access to a lite account than force people to connect their credit card.
 
-* Use this URL when signing up for your account : [https://ibm.biz/Bdzf4r](https://ibm.biz/Bdzf4r) 
-* If this URL does not work use : [https://cloud.ibm.com/registration](https://cloud.ibm.com/registration) to register for the IBM cloud account
+To avoid getting locked out
 
-![](.gitbook/assets/image%20%2819%29.png)
-
-* Fill out the form and click on the Blue Create Button
-*  Check your email for confirmation and any further instructions 
-* Log into your IBM Cloud account
+* If possible use some sort of hotspot or ask your workshop lead.
+* Use incognito window. 
+* Use a VPN
 
 ## Setting up Node-RED
 
-### Step 2: Deploy your Node-RED Application 
+### Deploy your Node-RED Application 
 
 #### Get your Node-RED starter Kit 
 
