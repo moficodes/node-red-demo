@@ -98,8 +98,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "from":"",
       "to":"",
       "reg":false,
-      "x":400,
-      "y":220,
+      "x":380,
+      "y":180,
       "wires":[
          [
             "19037133.924c87"
@@ -150,11 +150,11 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "type":"watson-text-to-speech",
       "z":"f2ce3087.ee968",
       "name":"text to speech",
-      "lang":"es-ES",
-      "langhidden":"es-ES",
+      "lang":"en-US",
+      "langhidden":"en-US",
       "langcustom":"NoCustomisationSetting",
       "langcustomhidden":"",
-      "voice":"es-ES_EnriqueVoice",
+      "voice":"en-US_AllisonVoice",
       "voicehidden":"es-ES_EnriqueVoice",
       "format":"audio/wav",
       "password":"Go3dEL-Escher-B@ch-climB-0ak5!",
@@ -162,8 +162,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "payload-response":false,
       "default-endpoint":true,
       "service-endpoint":"https://stream.watsonplatform.net/text-to-speech/api",
-      "x":1240,
-      "y":700,
+      "x":840,
+      "y":380,
       "wires":[
          [
             "2b50d466.c015dc"
@@ -178,8 +178,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "func":"var tweet = msg.tweet.text;\nvar newtweet = tweet.replace(/#/g, \" Hash tag \");\n\n// regex from https://stackoverflow.com/questions/1500260/detect-urls-in-text-with-javascript\nmsg.payload = newtweet.replace( /(([a-z]+:\\/\\/)?(([a-z0-9\\-]+\\.)+([a-z]{2}|biz|com|co|edu|gov|info|net|org|ly))(:[0-9]{1,5})?(\\/[a-z0-9_\\-\\.~]+)*(\\/([a-z0-9_\\-\\.]*)(\\?[a-z0-9+_\\-\\.%=&amp;]*)?)?(#[a-zA-Z0-9!$&'()*+.=-_~:@/?]*)?)(\\s+|$)/gi, \"see short URL \" );\nreturn msg;",
       "outputs":1,
       "noerr":0,
-      "x":680,
-      "y":200,
+      "x":640,
+      "y":160,
       "wires":[
          [
             "7e5ec0f9.bbb5a8",
@@ -197,8 +197,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "console":false,
       "tostatus":false,
       "complete":"false",
-      "x":970,
-      "y":200,
+      "x":870,
+      "y":140,
       "wires":[
 
       ]
@@ -212,7 +212,7 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "console":"false",
       "complete":"payload",
       "x":880,
-      "y":400,
+      "y":320,
       "wires":[
 
       ]
@@ -225,8 +225,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "func":"var emotions = [];\nemotions = msg.response.document_tone.tone_categories\n                .filter(function(c){\n                    if (c.category_id == \"emotion_tone\")\n                    {return c; }\n                    })[0].tones;\n                    \nvar myscore =  0;\nfor (var i=0; i<emotions.length; i++) {\n    if(emotions[i].score > myscore) {\n        msg.payload = emotions[i].score;\n        msg.topic = emotions[i].tone_name;\n        myscore = emotions[i].score;\n    }\n}\n\nreturn msg;",
       "outputs":1,
       "noerr":0,
-      "x":330,
-      "y":500,
+      "x":170,
+      "y":360,
       "wires":[
          [
             "16df6bd0.9e3004",
@@ -242,8 +242,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "active":true,
       "console":"false",
       "complete":"topic",
-      "x":530,
-      "y":500,
+      "x":370,
+      "y":360,
       "wires":[
 
       ]
@@ -256,8 +256,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "active":true,
       "console":"false",
       "complete":"response",
-      "x":650,
-      "y":340,
+      "x":630,
+      "y":260,
       "wires":[
 
       ]
@@ -275,7 +275,7 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "default-endpoint":true,
       "service-endpoint":"",
       "x":390,
-      "y":360,
+      "y":280,
       "wires":[
          [
             "9a0f3aa8.923ad",
@@ -304,7 +304,7 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "to":"",
       "reg":false,
       "x":660,
-      "y":400,
+      "y":320,
       "wires":[
          [
             "dffc23d5.a9663"
@@ -348,8 +348,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "checkall":"true",
       "repair":false,
       "outputs":5,
-      "x":320,
-      "y":680,
+      "x":180,
+      "y":460,
       "wires":[
          [
             "8b9bb215.7ed26"
@@ -387,8 +387,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "from":"",
       "to":"",
       "reg":false,
-      "x":530,
-      "y":680,
+      "x":350,
+      "y":460,
       "wires":[
          [
             "6328f1ea.22058"
@@ -414,8 +414,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "from":"",
       "to":"",
       "reg":false,
-      "x":530,
-      "y":760,
+      "x":390,
+      "y":540,
       "wires":[
          [
             "6328f1ea.22058"
@@ -441,8 +441,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "from":"",
       "to":"",
       "reg":false,
-      "x":560,
-      "y":720,
+      "x":400,
+      "y":500,
       "wires":[
          [
             "6328f1ea.22058"
@@ -468,8 +468,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "from":"",
       "to":"",
       "reg":false,
-      "x":530,
-      "y":640,
+      "x":350,
+      "y":420,
       "wires":[
          [
             "6328f1ea.22058"
@@ -495,8 +495,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "from":"",
       "to":"",
       "reg":false,
-      "x":520,
-      "y":820,
+      "x":360,
+      "y":580,
       "wires":[
          [
             "6328f1ea.22058"
@@ -514,8 +514,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "syntax":"mustache",
       "template":"This tweet expresses {{topic}} - {{tweet.text}}",
       "output":"str",
-      "x":870,
-      "y":860,
+      "x":530,
+      "y":440,
       "wires":[
          [
             "ea37a6d8.dd75d",
@@ -531,8 +531,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "active":true,
       "console":"false",
       "complete":"false",
-      "x":1010,
-      "y":1040,
+      "x":590,
+      "y":500,
       "wires":[
 
       ]
@@ -561,12 +561,12 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "neural":false,
       "default-endpoint":false,
       "service-endpoint":"",
-      "x":1010,
-      "y":700,
+      "x":630,
+      "y":380,
       "wires":[
          [
-            "e87cc8f9.0d3b1",
-            "e439f7a5.967798"
+            "e439f7a5.967798",
+            "e87cc8f9.0d3b1"
          ]
       ]
    },
@@ -581,8 +581,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "tostatus":false,
       "complete":"payload",
       "targetType":"msg",
-      "x":1230,
-      "y":860,
+      "x":750,
+      "y":460,
       "wires":[
 
       ]
@@ -606,8 +606,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "from":"",
       "to":"",
       "reg":false,
-      "x":1380,
-      "y":580,
+      "x":1020,
+      "y":380,
       "wires":[
          [
             "66c156b2.7d6878"
@@ -620,8 +620,8 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "z":"f2ce3087.ee968",
       "name":"",
       "voice":"",
-      "x":1530,
-      "y":740,
+      "x":1190,
+      "y":380,
       "wires":[
 
       ]
@@ -631,7 +631,7 @@ Once this flow is deployed you should be able to hear whether a tweet  expresses
       "type":"twitter in",
       "z":"f2ce3087.ee968",
       "twitter":"",
-      "tags":"CallForCode",
+      "tags":"",
       "user":"false",
       "name":"Listen to twitter feed",
       "inputs":1,
