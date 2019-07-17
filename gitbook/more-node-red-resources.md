@@ -1,5 +1,9 @@
 # More Node-RED resources
 
+### Tech Talk : Using Node-RED and AI to analyze social media
+
+[https://www.youtube.com/watch?v=cQV56uBHyrk](https://www.youtube.com/watch?v=cQV56uBHyrk)
+
 ### Node Red nodes and Flows: 
 
 [https://flows.nodered.org](https://flows.nodered.org) : Find new nodes, share your flows and see what other people have done with Node-RED

@@ -9,5 +9,8 @@
   * [Tweet Speech](workshop/tweet-speech.md)
   * [Tweet Tone](workshop/tweet-tone.md)
   * [Tweet Language](workshop/untitled.md)
+* [More Node-RED Flows](more-node-red-flows/README.md)
+  * [Tweet Dashboard](more-node-red-flows/tweet-dashboard.md)
+  * [Twitter Image Analysis](more-node-red-flows/twitter-image-analysis.md)
 * [More Node-RED resources](more-node-red-resources.md)
 

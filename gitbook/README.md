@@ -12,8 +12,7 @@ In this lab we will use Node-RED, a drag and drop low code environment and Watso
 
 ## Lab Instructors <a id="lab-instructors"></a>
 
-* Mofizur Rahman , IBM Developer Advocate \([@moficodes](https://twitter.com/moficodes)\)
-* Pooja Mistry , IBM Developer Advocate \([@poojamakes](https://twitter.com/moficodes)\)
+Pooja Mistry , IBM Developer Advocate \([@poojamakes](https://twitter.com/moficodes)\)
 
 
 
