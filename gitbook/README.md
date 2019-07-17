@@ -2,7 +2,7 @@
 description: Using Node-RED to analyze data from Twitter
 ---
 
-# Twitter data Analysis using Node-RED
+# Twitter Analysis using Node-RED
 
 ## Introduction  <a id="lab-instructors"></a>
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Twitter data Analysis using Node-RED](README.md)
+* [Twitter Analysis using Node-RED](README.md)
 * [Setup](setup.md)
 * [Workshop](workshop/README.md)
   * [Basics](workshop/basics.md)
