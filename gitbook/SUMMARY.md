@@ -4,6 +4,7 @@
 * [Setup](setup.md)
 * [Workshop](workshop/README.md)
   * [Basics](workshop/basics.md)
+  * [Twitter Credentials Setup](workshop/twitter-credentials-setup.md)
   * [Tweet Simple](workshop/tweet-simple-1.md)
   * [Tweet Sentiment](workshop/tweet-sentiment.md)
   * [Tweet Speech](workshop/tweet-speech.md)

@@ -8,7 +8,7 @@ description: >-
 
 ## Getting Started with IBM Cloud
 
-* [Click Here to Get Started](https://ibm.biz/BdzPbV)
+* [Click Here to Get Started](https://ibm.biz/BdzMZG)
 
 > ### Caution
 >
