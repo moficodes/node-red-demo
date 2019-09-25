@@ -10,7 +10,7 @@ This flow takes the sentiment of tweets and adds them to a dashboard in the form
 
 ![](../.gitbook/assets/node-red-twitter-tweetsentiment-dashboard.png)
 
-#### To install Dashboard nodes, your IBM Cloud Instance of Node-RED  needs to be re configured to include dashboard library . 
+#### To install Dashboard nodes go to manage palette and install node-red-dashboard 
 
 Here are the steps to configure dashboard nodes in your instance of IBM Cloud : 
 
@@ -18,31 +18,7 @@ Here are the steps to configure dashboard nodes in your instance of IBM Cloud :
 
 ![](../.gitbook/assets/screen-shot-2019-07-16-at-6.20.36-pm.png)
 
-**Step 2.** Scroll down to Continuous delivery and click on View toolchain 
-
-![](../.gitbook/assets/screen-shot-2019-07-16-at-6.22.28-pm.png)
-
-**Step 3**.  Click on Git box under Code 
-
-![](../.gitbook/assets/screen-shot-2019-07-16-at-6.23.24-pm.png)
-
-
-
-**Step 4** . Once in Git click on package.json 
-
-![](../.gitbook/assets/screen-shot-2019-07-16-at-6.24.53-pm.png)
-
-**Step 5.** Edit package.json dependancies. Add : 
-
-```text
-"node-red-dashboard":"2.x" 
-```
-
-in the dependency list as so and commit changes 
-
-![](../.gitbook/assets/screen-shot-2019-07-16-at-6.25.34-pm.png)
-
-**Step 6.** Once change is committed go back to App url  and in the manage pallet section search for dashboard nodes 
+**Step 2.** Once change is committed go back to App url  and in the manage pallet section search for dashboard nodes 
 
 ![](../.gitbook/assets/screen-shot-2019-07-16-at-6.30.29-pm.png)
 
