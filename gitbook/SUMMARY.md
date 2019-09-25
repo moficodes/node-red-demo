@@ -13,5 +13,6 @@
 * [More Node-RED Flows](more-node-red-flows/README.md)
   * [Tweet Dashboard](more-node-red-flows/tweet-dashboard.md)
   * [Twitter Image Analysis](more-node-red-flows/twitter-image-analysis.md)
+  * [Tweet Map](more-node-red-flows/tweet-map.md)
 * [More Node-RED resources](more-node-red-resources.md)
 
