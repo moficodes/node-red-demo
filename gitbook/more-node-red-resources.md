@@ -27,7 +27,7 @@ A collection of examples on how to use the Watson nodes in Node-Red
 
 {% embed url="https://github.com/pmmistry/Intro-to-Node-RED" %}
 
-### John Wiliki Node Red Demos 
+### John Walicki Node Red Demos 
 
 {% embed url="https://github.com/johnwalicki" %}
 
